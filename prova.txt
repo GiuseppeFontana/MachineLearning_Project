@@ -1,1 +1,10 @@
-file di prova prova
+- feat. elimination: 
+	proprio perché non ci sono dati sufficienti nel csv, 
+	la classificazione è solo sulle immagini
+
+- model selection:
+	CNN supervised classificatore multilabel, allenato sulle immagini
+
+- vedere dal classificatore lego le performance su questi dati
+
+
