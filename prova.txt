@@ -8,3 +8,25 @@
 - vedere dal classificatore lego le performance su questi dati
 
 
+
+___________________________________________________________________________
+
+- suddivido le immagini in cartelle per categoria
+- data augmentation per cartella, ma salvando in new_dir con nome image_index_label
+- creo il nuovo dataset contenente solo nome immagine e dx, a ci aggiungo tutte le nuove augmented
+- salvo il nuovo dataset
+- rimetto tutte le immagini insieme
+
+- undersampling della categoria 5 prima del fit
+__________________________________________________________________________________________________
+
+
+- 100 tuple a caso del dataset creano ds
+- suddivido in 7 subset ds a aggiungo i pixels
+- apro le immagini in 7 array e faccio augmentation
+- creo le tuple augmented e faccio append
+- fit con colonne dx e pixels
+- chiudo tutte le immagini
+- azzero la memoria
+
+
